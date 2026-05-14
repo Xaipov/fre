@@ -1,0 +1,1 @@
+Nothing should be ignored based on the provided file changes. The added file (`fiverr_python_finder.py`) is a Python source file and the modified file (`README.md`) is a documentation file - both should be tracked in version control.

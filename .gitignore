@@ -1,1 +1,51 @@
-Nothing should be ignored based on the provided file changes. The added file (`fiverr_python_finder.py`) is a Python source file and the modified file (`README.md`) is a documentation file - both should be tracked in version control.
+```
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Python specific
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# General temp files
+*.tmp
+*.temp
+```
